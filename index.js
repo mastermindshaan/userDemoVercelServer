@@ -61,3 +61,7 @@ app.get('*', (req, res) => {
 app.listen(PORT, () => {
     console.log(`> Ready on http://localhost:${PORT}`);
 });
+
+    
+// Export the Express API
+module.exports = app;
